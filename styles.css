@@ -47,7 +47,7 @@ nav{
     color:#fe2828 ;
    }
 
-    @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
             nav {
                 flex-direction: column;
                 height: auto;
@@ -72,3 +72,25 @@ nav{
                 font-size: 14px;
             }
         }
+.hero{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(/images/image\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    /* padding: 38px; */
+}
+
+.hero-content{
+    max-width: 800px;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom: 16px;
+    padding:0px 32px;
+}
